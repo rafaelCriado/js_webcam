@@ -14,9 +14,7 @@
 
             <video autoplay="true" id="webCamera"></video>
             <img id="imagemConvertida"/>
-            @php
-                $nr_pedido = '055090001129';
-            @endphp
+            
             <form id="formCamera" action="#" method="post">
                 <input type="hidden" name="imagem"  id="base_img" />
             </form>
